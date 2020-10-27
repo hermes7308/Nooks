@@ -13,7 +13,7 @@ const App = () => {
 import { useEffect, useRef } from "react";
 
 export const useFadeIn = (duration = 1, delay = 0) => {
-    if (typeof duration !== "function" || typeof delay !== "function") {
+    if (typeof duration !== "number" || typeof delay !== "number") {
         return;
     }
     const element = useRef();

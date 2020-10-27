@@ -5,8 +5,7 @@ const App = () => {
     const begForLife = () => console.log("Please don't leave");
     useBeforeLeave(begForLife);
     return (
-        <button onClick={enablePrevent}>Prevent</button>
-        <button onClick={disablePrevent}>Unprevent</button>
+            <h1>Hello World</h1>
     );
 };
  */
@@ -29,6 +28,8 @@ export const useBeforeLeave = (onBefore) => {
     };
     useEffect(() => {
         document.addEventListener("mouseleave", handle);
-        return document.removeEventListener("mouseleave", handle);
+        return () => {
+            document.removeEventListener("mouseleave", handle)
+        };
     }, []);
 };

@@ -16,7 +16,7 @@ const App = () => {
     return (
         <div className="App">
             {content.map((section, index) => {
-                <button onChange={() => changeItem(index)}>{section.tab}</button>
+                return <button key={index} onClick={() => changeItem(index)}>{section.tab}</button>
             })}
         <div>{contentItem.content}</div>
     </div>

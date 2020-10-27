@@ -1,0 +1,25 @@
+{
+  "name": "@cooks/use-input",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's input",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermes7308/Nooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title"
+  ],
+  "author": "Hyunkeun Park <hermes7308@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hermes7308/Nooks/issues"
+  },
+  "homepage": "https://github.com/hermes7308/Nooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
