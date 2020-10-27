@@ -16,10 +16,10 @@ export const useNotification = (title, options) => {
     }
     const fireNotif = () => {
         if (Notification.permission !== "granted") {
-            Notification.requestPermission().then((permission)=> {
+            Notification.requestPermission().then((permission) => {
                 if (permission === "granted") {
                     new Notification(title, options);
-                } else { 
+                } else {
                     return;
                 }
             });

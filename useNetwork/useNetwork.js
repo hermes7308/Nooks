@@ -13,10 +13,10 @@ const App = () => {
     );
 };
  */
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export const useNetwork = (onChange) => {
-    const [status, setStatus] = useStatus(navigator.onLine);
+    const [status, setStatus] = useState(navigator.onLine);
     const handleChange = () => {
         if (typeof onChange === "function") {
             onChange(navigator.onLine);

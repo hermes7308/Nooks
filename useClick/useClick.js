@@ -9,7 +9,7 @@ const App = () => {
     );
 };
  */
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export const useClick = (onClick) => {
     if (typeof onClick !== "function") {

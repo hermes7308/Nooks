@@ -19,7 +19,6 @@ export const useInput = (initialValue, validator) => {
         if (willUpdate) {
             setValue(value);
         }
-    }
-
+    };
     return { value, onChange };
-}
+};

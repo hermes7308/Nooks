@@ -34,4 +34,4 @@ export const useTabs = (initialTab, allTabs) => {
         contentItem: allTabs[currentIndex],
         changeItem: setCurrentIndex
     }
-}
+};

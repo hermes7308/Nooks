@@ -17,7 +17,7 @@ export const useBeforeLeave = (onBefore) => {
         return;
     }
     const handle = (event) => {
-        /* 
+        /*
         Tip)
 
         const { clientY } = event;

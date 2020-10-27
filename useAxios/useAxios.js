@@ -32,7 +32,7 @@ export const useAxios = (opts, axiosInstance = defaultAxios) => {
             loading: true
         });
         setTrigger(Date.now());
-    }
+    };
     useEffect(() => {
         axiosInstance(opts)
             .then(data => {
@@ -51,4 +51,4 @@ export const useAxios = (opts, axiosInstance = defaultAxios) => {
             });
     }, [trigger]);
     return { ...state, refetch };
-}
+};

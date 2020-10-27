@@ -18,11 +18,11 @@ export const useConfirm = (message, onConfirm, onCancel) => {
         return;
     }
     const confirmAction = () => {
-        if (confirm(message)) {
+        if (window.confirm(message)) {
             onConfirm();
         } else {
             onCancel();
         }
-    }
+    };
     return confirmAction;
-}
+};

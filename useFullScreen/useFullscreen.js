@@ -15,13 +15,15 @@ const App = () => {
     );
 };
  */
+import { useRef } from "react";
+
 export const useFullscreen = (callback) => {
     const element = useRef();
     const runCallback = (isFull) => {
         if (callback && typeof callback === "function") {
             callback(isFull);
         }
-    }
+    };
     const triggerFull = () => {
         if (element.current) {
             if (element.current.requestFullscreen) {

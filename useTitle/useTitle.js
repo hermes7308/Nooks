@@ -19,4 +19,4 @@ export const useTitle = (initialTitle) => {
     };
     useEffect(updateTitle, [title]);
     return setTitle;
-}
+};
