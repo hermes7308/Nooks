@@ -1,11 +1,3 @@
-/* 
-example) useInput.js
-
-const App = () => {
-    const name = useInput("Mr.");
-    return (<input type="text" {...name} />);
-} 
-*/
 import { useState } from "react";
 
 export const useInput = (initialValue, validator) => {

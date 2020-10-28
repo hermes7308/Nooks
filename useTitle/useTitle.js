@@ -1,14 +1,3 @@
-/* 
-example) useTitle.js
-
-const App = () => {
-    const titleUpdate = useTitle("Loading...");
-    setTimeout(() => titleUpdate("Home"), 5000);
-    return (
-        <h1>Hi</h1>
-    );
-} 
-*/
 import { useState, useEffect } from "react";
 
 export const useTitle = (initialTitle) => {

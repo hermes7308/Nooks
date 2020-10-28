@@ -1,11 +1,11 @@
 {
   "name": "@cooks/use-tabs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook to update your document's tabs",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hermes7308/Nooks.git"
+    "url": "git+https://github.com/hermes7308/cooks.git"
   },
   "keywords": [
     "react",
@@ -15,9 +15,9 @@
   "author": "Hyunkeun Park <hermes7308@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hermes7308/Nooks/issues"
+    "url": "https://github.com/hermes7308/cooks/issues"
   },
-  "homepage": "https://github.com/hermes7308/Nooks#readme",
+  "homepage": "https://github.com/hermes7308/cooks#readme",
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

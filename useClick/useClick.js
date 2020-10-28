@@ -1,14 +1,3 @@
-/* 
-example) useClick.js
-
-const App = () => {
-    const sayHello = () => console.log("Hello World");
-    const title = useClick(sayHello);
-    return (
-        <h1 ref={title}>Hi</h1>
-    );
-};
- */
 import { useEffect, useRef } from "react";
 
 export const useClick = (onClick) => {

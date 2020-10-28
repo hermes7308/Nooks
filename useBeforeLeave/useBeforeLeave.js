@@ -1,14 +1,3 @@
-/* 
-example) useBeforeLeave.js
-
-const App = () => {
-    const begForLife = () => console.log("Please don't leave");
-    useBeforeLeave(begForLife);
-    return (
-            <h1>Hello World</h1>
-    );
-};
- */
 import { useEffect } from "react";
 
 export const useBeforeLeave = (onBefore) => {

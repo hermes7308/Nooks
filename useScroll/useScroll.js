@@ -1,15 +1,3 @@
-/* 
-example) useScroll.js
-
-const App = () => {
-    const {y} = useScroll();
-    return (
-        <div className="App" style={{height: "1000vh"}}>
-            <h1 style={{position:"fixed", color: y < 100 ? "blue" : "red"}}>Hi</h1>
-        </div>
-    );
-};
- */
 import { useState, useEffect } from "react";
 
 export const useScroll = () => {
